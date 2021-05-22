@@ -6,15 +6,15 @@ from typing import final
 # check git hub saved? 
 def inventory():
     data=  [
-        {"id": 1001, "Info":"1001    Samsung Galaxy A20      Price   "+str(15999),"Name":"Samsung Galaxy A20","Price":15999,"Stock":5},
-        {"id": 1002, "Info":"1002    Samsung Galaxy A21      Price   "+str(18999),"Name":"Samsung Galaxy A21","Price":18999,"Stock":5},
-        {"id": 1003, "Info":"1003    Samsung Galaxy A30      Price   "+str(23999),"Name":"Samsung Galaxy A30","Price":23999,"Stock":5},
-        {"id": 1004, "Info":"1004    Samsung Galaxy A51      Price   "+str(41999),"Name":"Samsung Galaxy A51","Price":41999,"Stock":5},
-        {"id": 1005, "Info":"1005    Samsung Galaxy A52      Price   "+str(44999),"Name":"Samsung Galaxy A52","Price":44999,"Stock":5},
-        {"id": 1006, "Info":"1006    Samsung Galaxy A61      Price   "+str(53499),"Name":"Samsung Galaxy A61","Price":53499,"Stock":5},
-        {"id": 1007, "Info":"1007    Samsung Galaxy A72      Price   "+str(59999),"Name":"Samsung Galaxy A72","Price":59999,"Stock":5},
-        {"id": 1008, "Info":"1008    Samsung Galaxy A81      Price   "+str(61999),"Name":"Samsung Galaxy A81","Price":61999,"Stock":5},
-        {"id": 1009, "Info":"1009    Samsung Galaxy A82      Price   "+str(67999),"Name":"Samsung Galaxy A82","Price":67999,"Stock":5}
+        {"id": 1001, "Info":"1001    Chocolate Cupcake         Price   "+str(120),"Name":"Chocolate Cupcake","Price":120,"Stock":20},
+        {"id": 1002, "Info":"1002    Butterscotch Cupcake      Price   "+str(120),"Name":"Butterscotch Cupcake","Price":120,"Stock":20},
+        {"id": 1003, "Info":"1003    Red Velvet Cupcake        Price   "+str(120),"Name":"Red Velvet Cupcake","Price":120,"Stock":20},
+        {"id": 1004, "Info":"1004    Hershey's Brownie         Price   "+str(80),"Name":"Hershey's Brownie","Price":80,"Stock":20},
+        {"id": 1005, "Info":"1005    Fudge Brownie             Price   "+str(100),"Name":"Fudge Brownie","Price":100,"Stock":20},
+        {"id": 1006, "Info":"1006    Oreo Shake                Price   "+str(499),"Name":"Oreo Shake","Price":499,"Stock":20},
+        {"id": 1007, "Info":"1007    Vanilla Almond Milk       Price   "+str(499),"Name":"Vanilla Almond Milk","Price":499,"Stock":20},
+        {"id": 1008, "Info":"1008    Raspberry Cupcake         Price   "+str(120),"Name":"Raspberry Cupcake","Price":120,"Stock":20},
+        {"id": 1009, "Info":"1009    Lotus Brownie             Price   "+str(100),"Name":"Lotus Brownie","Price":100,"Stock":20}
         ]
     return data
 def userMenu(x):
